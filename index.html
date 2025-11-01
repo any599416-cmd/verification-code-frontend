@@ -105,7 +105,8 @@
 
     <script>
         // 后端API地址 - 根据实际部署情况修改
-        const API_URL = 'http://localhost:5000';
+        // 把原来的 localhost 改成电脑的实际局域网IP
+const API_URL = 'http://192.168.0.175:5000/get-code';  // 例如：http://你的电脑IP:5000
         
         // 定时器ID
         let refreshTimer;
